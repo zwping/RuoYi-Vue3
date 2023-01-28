@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: zwping/fork-sync@v1.6.5
         with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
           owner: yangzongzhuan
           base: master
           head: master
